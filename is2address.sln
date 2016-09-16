@@ -1,21 +1,23 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2address", "http://localhost/is2/is2address/is2address.csproj", "{7A673EF1-0199-4575-B663-CBB51E8BEEB5}"
-	ProjectSection(ProjectDependencies) = postProject
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "is2address", "is2address.csproj", "{7A673EF1-0199-4575-B663-CBB51E8BEEB5}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release = Release
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Debug.ActiveCfg = Debug|.NET
-		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Debug.Build.0 = Debug|.NET
-		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Release.ActiveCfg = Release|.NET
-		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Release.Build.0 = Release|.NET
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A673EF1-0199-4575-B663-CBB51E8BEEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
